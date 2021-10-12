@@ -17,3 +17,10 @@ Per the rules of Blackjack, specifically Casino blackjack, I feel the need to me
   - I encountered an issue with getting the random number generator to actually be "random" and found that by resetting the random number generator regularly between hands, I could effectively "shuffle" the deck.
   - I found some issue in setting up each class, but eventually used Program.cs as the hub, with each other supporting file responsible for a portion of the project.
   - Casino.cs is the bane of my existence, and had I had extra time, I would have searched for an alternate way to write it.
+
+# Building and executing this project
+  - In order to build and execute this project, you will need:
+      - C# code access
+      - VisualStudio IDE
+  - Once you open VisualStudio, open the project in your local folder, and click run. Alternatively, there is an executable file you can use.
+  - The project has the necessary contained prompts to direct the user once the project is running.
